@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: black;
+    justify-content:center;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+}
+@media (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    #Reset, #maisum, #menosum{
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+}
+#Reset:hover{
+    background-color: yellow;
+    transform: scale(1.1);
+    color: black;
+}
+
+#Reset:active{
+    transform: scale(0.9);
+}
+
+#maisum:hover {
+    background-color: yellow;
+    transform: scale(1.1);
+    color: black;
+}
+
+#maisum:active{
+    transform: scale(0.9);
+}
+
+#menosum:hover{
+    border-color: green;
+    background-color: yellow;
+    transform: scale(1.1);
+    color: black;
+}
+
+#menosum:active{
+    transform: scale(0.9);
+}
+
+#mensagem:hover{
+    border-color: black;
+    background-color: black;
+    color: rgb(16, 27, 27);
+    transform: scale(1.1);
+}
+
+#mensagem:active{
+    transform: scale(0.9);
+}
+
+#mensagem2:hover{
+    border-color: black;
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+#mensagem2:active{
+    transform: scale(0.9);
+}
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 120px;
+    color: white;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+button{
+
+    font-size: 20px;
+    margin-top: 10px;
+}
+#Reset{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 125px;
+    height: 45px;
+    font-size: 20px;
+    background: rgb(241, 19, 19);
+    border: 5px solid red;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#Reset:hover{
+    background-color: yellow;
+    transform: scale(1.1);
+    color: black;
+}
+#Reset:active{
+    transform: scale(0.9);
+}
+#maisum{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 125px;
+    height: 45px;
+    font-size: 20px;
+    background: green;
+    border: 5px solid green;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#maisum:hover {
+    background-color: yellow;
+    transform: scale(1.1);
+    color: black;
+}
+#maisum:active{
+    transform: scale(0.9);
+}
+#menosum{
+        margin-left: 10px;
+    margin-right: 10px;
+    width: 125px;
+    height: 45px;
+    background: green;
+    border: 5px solid green;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#menosum:hover{
+    border-color: green;
+    background-color: yellow;
+    transform: scale(1.1);
+    color: black;
+}
+#menosum:active{
+    transform: scale(0.9);
+}
+#mensagem{
+    color: black;
+    background: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    transition: all 0.3 ease;
+}
+#mensagem:hover{
+    border-color: black;
+    background-color: black;
+    color: rgb(23, 32, 32);
+    transform: scale(1.1);
+}
+#mensagem:active{
+    transform: scale(0.9);
+}
