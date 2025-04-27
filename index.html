@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    <div class="container">
     <h1>Counter</h1>
 
     <p id="resultado">0</p>
-    <button id="maisum" onclick="maisum()">+1</button>
-    <button id="Reset" onclick="reset()">⚠️Reset⚠️</button>
+    <div class="botoes">
     <button id="menosum" onclick="menosum()">-1</button>
-
+    <button id="Reset" onclick="reset()">⚠️Reset⚠️</button>
+    <button id="maisum" onclick="maisum()">+1</button>
+    
+</div>
     <div id="msg">
     <button id="mensagem">Parabens, vc me achou! agora, tire um print e mande para o desenvolvedor.</button>
+</div>
 </div>
     <script>
         let numero = 0
